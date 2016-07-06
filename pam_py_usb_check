@@ -1,0 +1,25 @@
+#!/usr/local/bin/python
+import glob,sys,socket,os,hashlib
+
+def check(fi):
+	for key in eval(open("/etc/pam_py_usb_keys").read()):
+		if key != "":
+			if (hashlib.sha224(fi.read()).hexdigest() == key):
+				print("Valid auth token found on "+s)
+				sys.exit(0)
+
+files=glob.glob("/Volumes/*/.auth-"+socket.gethostname())+glob.glob("/media/*/*/")
+for s in files:
+	try:
+		with open(s) as f:
+			check(f)
+			print("Invalid or corrupt auth file on "+s+" found.  Removing...")
+			os.remove(s)
+			print("You can recreate the key by running")
+			print("  pam_py_usb_add")
+			print("in terminal.")
+	except IOError as exc:
+		pass
+
+
+sys.exit(1);

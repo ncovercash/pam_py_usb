@@ -1,0 +1,16 @@
+#!/usr/local/bin/python
+import glob,sys,socket,os,random
+
+hash = random.getrandbits(128)
+
+if os.geteuid() != 0:
+    print("You need to have root privileges to run this script.")
+    print("Please try again, this time using 'sudo'. Exiting.")
+    sys.exit(3)
+
+print("This will invalidate all keys.  Continue?")
+if (raw_input("Y/n? ").lower() != "n"):
+	os.system("echo [] > /etc/pam_py_usb_keys") # when ur tired of bs
+else:
+	print("bye")
+

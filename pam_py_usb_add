@@ -1,0 +1,31 @@
+#!/usr/local/bin/python
+import glob,sys,socket,os,random,hashlib
+
+hash = random.getrandbits(128)
+
+if os.geteuid() != 0:
+    print("You need to have root privileges to run this script.")
+    print("Please try again, this time using 'sudo'. Exiting.")
+    sys.exit(3)
+
+print("This will add this key for ALL users of the system.  ^C now if you don't want this.")
+
+vols = glob.glob("/Volumes/*/")+glob.glob("/media/*/*/")
+print("Choose a volume to install the key onto")
+for i in vols:
+	print(str(vols.index(i)+1)+": "+i)
+
+device_id = int(raw_input("Enter device number to install on: "))-1
+
+authFile = open(vols[device_id]+".auth-"+socket.gethostname(), 'w')
+authFile.write(str(hash))
+authFile.close()
+
+
+keyArr = eval(open("/etc/pam_py_usb_keys").read())
+keysFile = open("/etc/pam_py_usb_keys", 'w')
+keyArr.append(hashlib.sha224(str(hash)).hexdigest())
+print keyArr
+keysFile.write(str(keyArr))
+keysFile.close()
+

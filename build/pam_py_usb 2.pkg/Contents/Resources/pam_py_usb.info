@@ -1,0 +1,17 @@
+Title pam_py_usb
+Version 1.0
+Description 
+DefaultLocation /
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions NO
+AllowBackRev NO
+RootVolumeOnly YES
+OnlyUpdateInstalledLanguages NO
