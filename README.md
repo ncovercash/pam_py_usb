@@ -19,8 +19,8 @@ Otherwise, sufficient allows either to authenicate
 Be sure to place the python code in the PATH for all users
 
 ---
-- a
+
 If you aren't comfortable in the command line, or don't know much about PAM
 PLEASE keep sudo -i open in terminal before modifying anything 
--
+
 
