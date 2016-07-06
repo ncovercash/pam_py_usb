@@ -1,1 +1,0 @@
-sed -i '$aauth       sufficient     pusb.so' /etc/pam.d/*

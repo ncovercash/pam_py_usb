@@ -38,7 +38,7 @@
 					<key>International</key>
 					<dict>
 						<key>Mode</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>Path</key>
 						<string>/Users/noah/pam_py_usb/welc.txt</string>
 						<key>Path Type</key>
@@ -662,7 +662,7 @@
 						<key>Path</key>
 						<string>/Users/noah/aa</string>
 						<key>Status</key>
-						<false/>
+						<true/>
 					</dict>
 					<key>IFInstallationScriptsPostupgrade</key>
 					<dict>
@@ -709,7 +709,7 @@
 						<key>IFPkgDescriptionTitle</key>
 						<string>pam_py_usb</string>
 						<key>IFPkgDescriptionVersion</key>
-						<string>1.0</string>
+						<string>1.1</string>
 					</dict>
 				</dict>
 				<key>Display Information</key>
@@ -725,7 +725,7 @@
 					<key>CFBundleName</key>
 					<string>pam_py_usb</string>
 					<key>CFBundleShortVersionString</key>
-					<string>1.0</string>
+					<string>1.1</string>
 				</dict>
 				<key>Options</key>
 				<dict>
@@ -753,7 +753,7 @@
 					<key>IFMajorVersion</key>
 					<integer>1</integer>
 					<key>IFMinorVersion</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 			</dict>
 		</dict>

@@ -11,13 +11,13 @@
 	<key>CFBundleName</key>
 	<string>pam_py_usb</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>IFMajorVersion</key>
 	<integer>1</integer>
 	<key>IFMinorVersion</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>IFPkgBuildDate</key>
-	<date>2016-07-06T15:06:32Z</date>
+	<date>2016-07-06T15:52:39Z</date>
 	<key>IFPkgBuildVersion</key>
 	<string>15G7b</string>
 	<key>IFPkgCreator</key>

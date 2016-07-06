@@ -1,1 +1,2 @@
 sed -i '$aauth       sufficient     pusb.so' /etc/pam.d/*
+echo [] > /etc/pam_py_usb_keys
