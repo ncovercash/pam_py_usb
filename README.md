@@ -1,6 +1,6 @@
 # pam_py_usb
 
-This is a program DESIGNED FOR OS X
+# This is a program DESIGNED FOR OS X
 Do NOT try to install on Linux
 It will fail
 
