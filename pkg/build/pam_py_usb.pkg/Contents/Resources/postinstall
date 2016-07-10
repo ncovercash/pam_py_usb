@@ -1,2 +1,5 @@
-sed -i '$aauth       sufficient     pusb.so' /etc/pam.d/*
+for i in /etc/pam.d/*
+do
+	echo "auth       sufficient     pusb.so" >> $i
+done
 echo [] > /etc/pam_py_usb_keys
