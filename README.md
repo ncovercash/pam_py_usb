@@ -29,9 +29,12 @@ PLEASE keep sudo -i open in terminal before modifying anything
 # Documentation
 ## Usage
 3 python binaries are put into PATH:
-###### pam_py_usb_add
-###### pam_py_usb_check
-###### pam_py_usb_renew
+### # pam_py_usb_add
+This command creates a USB key based on whats monted in /Volumes/
+### $ pam_py_usb_check
+This command does not require root, and allows you to see if there are valid authenication keys mounted, as well as ran whenever you su or sudo
+### $ pam_py_usb_renew
+Run this as root to invalidate all current keys
 
 # TODO
 - [ ] Per-user auth
