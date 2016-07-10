@@ -17,7 +17,7 @@
 					<key>Mode</key>
 					<integer>1</integer>
 					<key>Path</key>
-					<string>/Users/noah/Documents/pam_py_usb_logo.jpg</string>
+					<string>/Users/noah/Documents/pam_py_usb/pkg/pam_py_usb_logo.jpg</string>
 					<key>Path Type</key>
 					<integer>1</integer>
 				</dict>
@@ -28,7 +28,7 @@
 						<key>Mode</key>
 						<integer>1</integer>
 						<key>Path</key>
-						<string>/Users/noah/WTFPL.txt</string>
+						<string>/Users/noah/CPAL.txt</string>
 						<key>Path Type</key>
 						<integer>1</integer>
 					</dict>
@@ -40,7 +40,7 @@
 						<key>Mode</key>
 						<integer>1</integer>
 						<key>Path</key>
-						<string>/Users/noah/pam_py_usb/welc.txt</string>
+						<string>/Users/noah/Documents/pam_py_usb/pkg/pkg_readme.txt</string>
 						<key>Path Type</key>
 						<integer>1</integer>
 					</dict>
@@ -446,71 +446,6 @@
 									<array>
 										<dict>
 											<key>Children</key>
-											<array/>
-											<key>GID</key>
-											<integer>0</integer>
-											<key>Path</key>
-											<string>/usr/bin/pam_py_usb_add</string>
-											<key>Path Type</key>
-											<integer>1</integer>
-											<key>Privileges</key>
-											<integer>493</integer>
-											<key>Type</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>Children</key>
-											<array/>
-											<key>GID</key>
-											<integer>0</integer>
-											<key>Path</key>
-											<string>/usr/bin/pam_py_usb_check</string>
-											<key>Path Type</key>
-											<integer>1</integer>
-											<key>Privileges</key>
-											<integer>493</integer>
-											<key>Type</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>Children</key>
-											<array/>
-											<key>GID</key>
-											<integer>0</integer>
-											<key>Path</key>
-											<string>/usr/bin/pam_py_usb_renew</string>
-											<key>Path Type</key>
-											<integer>1</integer>
-											<key>Privileges</key>
-											<integer>493</integer>
-											<key>Type</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-									</array>
-									<key>GID</key>
-									<integer>0</integer>
-									<key>Path</key>
-									<string>bin</string>
-									<key>Path Type</key>
-									<integer>1</integer>
-									<key>Privileges</key>
-									<integer>493</integer>
-									<key>Type</key>
-									<integer>2</integer>
-									<key>UID</key>
-									<integer>0</integer>
-								</dict>
-								<dict>
-									<key>Children</key>
-									<array>
-										<dict>
-											<key>Children</key>
 											<array>
 												<dict>
 													<key>Children</key>
@@ -547,6 +482,88 @@
 									<integer>0</integer>
 									<key>Path</key>
 									<string>lib</string>
+									<key>Path Type</key>
+									<integer>1</integer>
+									<key>Privileges</key>
+									<integer>493</integer>
+									<key>Type</key>
+									<integer>2</integer>
+									<key>UID</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>Children</key>
+									<array>
+										<dict>
+											<key>Children</key>
+											<array>
+												<dict>
+													<key>Children</key>
+													<array/>
+													<key>GID</key>
+													<integer>0</integer>
+													<key>Path</key>
+													<string>/usr/bin/pam_py_usb_add</string>
+													<key>Path Type</key>
+													<integer>1</integer>
+													<key>Privileges</key>
+													<integer>493</integer>
+													<key>Type</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+												<dict>
+													<key>Children</key>
+													<array/>
+													<key>GID</key>
+													<integer>0</integer>
+													<key>Path</key>
+													<string>/usr/bin/pam_py_usb_check</string>
+													<key>Path Type</key>
+													<integer>1</integer>
+													<key>Privileges</key>
+													<integer>493</integer>
+													<key>Type</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+												<dict>
+													<key>Children</key>
+													<array/>
+													<key>GID</key>
+													<integer>0</integer>
+													<key>Path</key>
+													<string>/usr/bin/pam_py_usb_renew</string>
+													<key>Path Type</key>
+													<integer>1</integer>
+													<key>Privileges</key>
+													<integer>493</integer>
+													<key>Type</key>
+													<integer>3</integer>
+													<key>UID</key>
+													<integer>0</integer>
+												</dict>
+											</array>
+											<key>GID</key>
+											<integer>0</integer>
+											<key>Path</key>
+											<string>bin</string>
+											<key>Path Type</key>
+											<integer>1</integer>
+											<key>Privileges</key>
+											<integer>493</integer>
+											<key>Type</key>
+											<integer>2</integer>
+											<key>UID</key>
+											<integer>0</integer>
+										</dict>
+									</array>
+									<key>GID</key>
+									<integer>0</integer>
+									<key>Path</key>
+									<string>local</string>
 									<key>Path Type</key>
 									<integer>1</integer>
 									<key>Privileges</key>
@@ -660,7 +677,7 @@
 					<key>IFInstallationScriptsPostinstall</key>
 					<dict>
 						<key>Path</key>
-						<string>/Users/noah/aa</string>
+						<string>/Users/noah/Documents/pam_py_usb/pkg/postinst</string>
 						<key>Status</key>
 						<true/>
 					</dict>
@@ -681,14 +698,14 @@
 					<key>IFInstallationScriptsPreinstall</key>
 					<dict>
 						<key>Path</key>
-						<string>/Users/noah/preflight</string>
+						<string></string>
 						<key>Status</key>
 						<false/>
 					</dict>
 					<key>IFInstallationScriptsPreupgrade</key>
 					<dict>
 						<key>Path</key>
-						<string>/Users/noah/preflight</string>
+						<string></string>
 						<key>Status</key>
 						<false/>
 					</dict>
