@@ -8,8 +8,8 @@ to be used in place of a password
 Please note in OS X authenication windows, just press enter in the password field to log in when the correct key is attached
 
 # Automatic Install
-Use the .pkg inside the dmg or /build for an automatic install
-View the documentation for a better undersanding of what the installer actually dies
+Use the .dmg inside /release or .pkg in /pkg/build for an automatic install
+View the documentation for a better undersanding of what the installer actually does
 
 # Manual Install
 1. Compile pusb.c:
@@ -35,7 +35,7 @@ PLEASE keep sudo -i open in terminal before modifying anything
 This command creates a USB key based on whats monted in /Volumes/
 ### $ pam_py_usb_check
 This command does not require root, and allows you to see if there are valid authenication keys mounted, as well as ran whenever you su or sudo
-### $ pam_py_usb_renew
+### # pam_py_usb_renew
 Run this as root to invalidate all current keys
 
 # TODO
