@@ -45,3 +45,4 @@ Run this as root to invalidate all current keys
 - [x] Installer
 - [ ] Uninstaller
 - [ ] Linux support? (pam_usb)
+- [ ] Fix blank login box on Apple windows
