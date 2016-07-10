@@ -5,6 +5,8 @@
 This utility allows for the use of a flash drive (or any other volume, even a partition)
 to be used in place of a password
 
+Please note in OS X authenication windows, just press enter in the password field to log in when the correct key is attached
+
 # Automatic Install
 Use the .pkg inside the dmg or /build for an automatic install
 View the documentation for a better undersanding of what the installer actually dies
