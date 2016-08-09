@@ -22,6 +22,18 @@ gcc -fPIC -DPIC -shared -rdynamic -o pusb.so pusb.c
    * Change sufficient to requisite to force the use of a usb and password combination
      Otherwise, sufficient allows either to authenicate
      Be sure to place the python code in the PATH for all users
+   This can be done using a bash loop such as:
+``` bash
+for i in /etc/pam.d/*
+do
+        echo "auth       sufficient     pusb.so" > $i.new
+        cat $i >> $i.new
+        mv $i.new $i
+        # rm $i.new
+        # sed -i '1d' $i
+done
+echo [] > /etc/pam_py_usb_keys
+```
 
 ---
 

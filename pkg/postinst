@@ -1,5 +1,9 @@
 for i in /etc/pam.d/*
 do
-	echo "auth       sufficient     pusb.so" >> $i
+	echo "auth       sufficient     pusb.so" > $i.new
+	cat $i >> $i.new
+	mv $i.new $i
+	# rm $i.new
+	# sed -i '1d' $i
 done
 echo [] > /etc/pam_py_usb_keys
