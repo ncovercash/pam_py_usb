@@ -1,5 +1,5 @@
 # pam_py_usb
-
+# DO NOT USE
 **This is a program DESIGNED FOR OS X**
 
 This utility allows for the use of a flash drive (or any other volume, even a partition)
