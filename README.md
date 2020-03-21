@@ -1,5 +1,8 @@
 # pam_py_usb
-# DO NOT USE
+
+#### Please note, this software is broken, unmaintaned, and will likely royally break your system.
+#### The code is left online for educational purposes.  Questions about methodology are welcome in my e-mail.
+
 **This is a program DESIGNED FOR OS X**
 
 This utility allows for the use of a flash drive (or any other volume, even a partition)
